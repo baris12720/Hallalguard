@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HalalLife Pro</string>
+    <string name="camera_permission_required">Ürün barkodlarını ve ambalajları tarayabilmek için kamera izni gereklidir.</string>
+</resources>

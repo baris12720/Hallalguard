@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notif_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#181C22"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <!-- Top Row: App Mosque Logo + City | Hijri Date | Countdown to Next Prayer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="4dp">
+
+        <ImageView
+            android:id="@+id/iv_notif_logo"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="6dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_notif_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="İstanbul"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_notif_hijri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="22 Rebi-ül Ahir"
+            android:textColor="#CBD5E1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_notif_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="Akşama 01:12:36"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Horizontal Divider Line -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#64748B"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Bottom Row: 6 Prayer Times Table (Exact Ezan Vakti Pro Layout) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <!-- 1. İmsak -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_lbl_imsak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="İmsak"
+                android:textColor="#E2E8F0"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tv_val_imsak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="05:24"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 2. Güneş -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_lbl_gunes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Güneş"
+                android:textColor="#E2E8F0"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tv_val_gunes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="07:15"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 3. Öğle -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_lbl_ogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Öğle"
+                android:textColor="#E2E8F0"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tv_val_ogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="13:12"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 4. İkindi -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_lbl_ikindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="İkindi"
+                android:textColor="#F97316"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_val_ikindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="16:11"
+                android:textColor="#F97316"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 5. Akşam -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_lbl_aksam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Akşam"
+                android:textColor="#E2E8F0"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tv_val_aksam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="18:58"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- 6. Yatsı -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_lbl_yatsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Yatsı"
+                android:textColor="#E2E8F0"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tv_val_yatsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="20:35"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

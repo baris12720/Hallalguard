@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HalalLife Pro</string>
+    <string name="camera_permission_required">يلزم إذن الكاميرا لمسح باركود المنتجات وقراءة الملصقات.</string>
+</resources>

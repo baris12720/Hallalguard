@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HalalLife Pro</string>
+    <string name="camera_permission_required">Barkod ve ürün etiketi okutmak için kamera izni gereklidir.</string>
+</resources>
