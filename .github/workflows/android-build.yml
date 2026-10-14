@@ -7,6 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: HelalGuard_Android_Project
 
     steps:
     - name: Kodlari Depodan Cek
@@ -28,4 +31,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: debug-apk
-        path: app/build/outputs/apk/debug/app-debug.apk
+        path: HelalGuard_Android_Project/app/build/outputs/apk/debug/app-debug.apk
