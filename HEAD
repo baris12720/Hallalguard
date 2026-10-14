@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 d431aabaedf8f185270249ed2e17618613d3f5e8 root <root@localhost.localdomain> 1790759416 +0000	commit (initial): HelalGuard proje dosyaları yükleme
+d431aabaedf8f185270249ed2e17618613d3f5e8 0000000000000000000000000000000000000000 root <root@localhost.localdomain> 1790759431 +0000	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 d431aabaedf8f185270249ed2e17618613d3f5e8 root <root@localhost.localdomain> 1790759431 +0000	Branch: renamed refs/heads/master to refs/heads/main
+d431aabaedf8f185270249ed2e17618613d3f5e8 c6957fe8ee229357e0b505fcfe1a278513fb43cd root <root@localhost.localdomain> 1790759744 +0000	commit: Dizin yapisi duzeltildi
+c6957fe8ee229357e0b505fcfe1a278513fb43cd c6957fe8ee229357e0b505fcfe1a278513fb43cd root <root@localhost.localdomain> 1790768496 +0000	reset: moving to origin/main
+c6957fe8ee229357e0b505fcfe1a278513fb43cd f6cf1587ee4d852ec87c83f0306c75a3de295dbb root <root@localhost.localdomain> 1790768600 +0000	commit: Fix: Added internet permission and cleartext traffic
+f6cf1587ee4d852ec87c83f0306c75a3de295dbb 1c280c720ce7ee4ef96449939f58ba6c8e6752e7 root <root@localhost.localdomain> 1790769127 +0000	commit: Fix: Added Camera permissions and ScannerActivity definition
+1c280c720ce7ee4ef96449939f58ba6c8e6752e7 bd75c7f48f56be27d22f8a64d323816a1fae12ad root <root@localhost.localdomain> 1790769846 +0000	commit: Fix: Updated Open Food Facts API endpoint to v0
+bd75c7f48f56be27d22f8a64d323816a1fae12ad 9161203049c4ba1d4952948eae8c2902f1ac795a root <root@localhost.localdomain> 1790770811 +0000	commit: Feat: Added Boycott brand detection engine for Israel-linked products
+9161203049c4ba1d4952948eae8c2902f1ac795a 9161203049c4ba1d4952948eae8c2902f1ac795a root <root@localhost.localdomain> 1790771952 +0000	reset: moving to HEAD
+9161203049c4ba1d4952948eae8c2902f1ac795a 493d5857a76621afadfaa8a35f9cba373255ad03 root <root@localhost.localdomain> 1790771972 +0000	commit: Fix: Restored clean app.js and index.html syntax
+493d5857a76621afadfaa8a35f9cba373255ad03 aa5c68da97e214454a34979457a0869355246808 root <root@localhost.localdomain> 1790772219 +0000	commit: Fix: Rebuilt index.html and app.js with working tabs and camera triggers
+aa5c68da97e214454a34979457a0869355246808 1b8dfae0909d29e2721ee0794acd69811810466b root <root@localhost.localdomain> 1790773343 +0000	commit: Fix: Native bridge implementation
+1b8dfae0909d29e2721ee0794acd69811810466b 554b90074d8418d19d45447366849bfee7cd88d2 root <root@localhost.localdomain> 1790773544 +0000	commit: Fix: Add missing R import in MainActivity.kt
+554b90074d8418d19d45447366849bfee7cd88d2 cea07dbf8e4f407935da94a6b7638dcf7fe77380 root <root@localhost.localdomain> 1790774113 +0000	commit: Fix: Add missing R import and resolve MainActivity symbols
